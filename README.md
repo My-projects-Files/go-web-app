@@ -2,6 +2,17 @@
 
 This is a simple website written in Golang. It uses the `net/http` package to serve HTTP requests.
 
+## creating the buld binary
+We need to clone the repo and execute the below command for generating the build binary.
+~~~
+go build -o main .
+#main is the name of the binary file that will be created 
+~~~
+To execute the code binary we can use 
+~~~
+./main
+~~~
+
 ## Running the server
 
 To run the server, execute the following command:
