@@ -28,3 +28,16 @@ The server will start on port 8080. You can access it by navigating to `http://l
 ![Website](static/images/golang-website.png)
 
 
+## Helm installation and Configuration
+
+To install the helm, we can use the below script in ubuntu
+~~~
+curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3
+chmod 700 get_helm.sh
+./get_helm.sh
+~~~
+Post instalation,
+we can first create a helm chart
+~~~
+helm create <helm_chart_name>
+~~~
