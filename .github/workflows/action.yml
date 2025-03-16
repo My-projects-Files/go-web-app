@@ -1,5 +1,5 @@
 name: action
-#run action
+#run actions
 on:
   push:
     branches:
